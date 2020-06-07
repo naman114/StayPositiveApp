@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StayPositive</string>
+    <string name="welcome">Welcome!</string>
+    <string name="whats_your_name">What\'s your name?</string>
+    <string name="done_text">DONE</string>
+    <string name="star_image">Image of a star</string>
+    <string name="quoteForYou"><u>Today\'s Quote</u></string>
+    <string name="nextQuote">NEXT QUOTE</string>
+    <string name="greetings">"Greetings "</string>
+    <string-array name="quotes">
+        <item>If you do not conquer self, you will be conquered by self.\n-Napoleon Hill</item>
+        <item>Action is the real measure of intelligence.\n-Napoleon Hill</item>
+        <item>A goal is a dream with a deadline.\n-Napoleon Hill</item>
+        <item>Any intelligent fool can make things bigger and more complex… It takes a touch of genius - and a lot of courage to move in the opposite direction.\n-Albert Einstein.</item>
+        <item>What we think, we become.\n-Buddha</item>
+        <item>Success is achieved and maintained by those who try and keep trying.\n-W C Stone</item>
+        <item>There is no elevator to success, you have to take the stairs.\n-unknown</item>
+        <item>It\'s the inspired student that continues to learn on their own.\n-Neil DeGrasse Tyson</item>
+        <item>Intelligence is the ability to adapt to change.\n-Stephen Hawking</item>
+        <item>Few are those who see with their own eyes and feel with their own hearts.\n-Albert Einstein</item>
+        <item>I have so much to do. I hate wasting time.\n-Stephen Hawking</item>
+        <item>Only one who devotes himself to a cause with his whole strength and soul can be a true master. For this reason mastery demands all of a person.\n-Albert Einstein</item>
+        <item>Intellectuals solve problems, geniuses prevent them.\n-Albert Einstein</item>
+        <item>A man who dares to waste one hour of time has not discovered the value of life.\n-Charles Darwin</item>
+        <item>Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.\n-Marie Curie</item>
+        <item>You cannot teach a man anything; you can only help him discover it in himself.\n-Galileo</item>
+        <item>Valid criticism does you a favor.\n-Carl Sagan</item>
+        <item>I can is 100 times more than IQ.\n-unknown</item>
+        <item>Turn your can\'t into a can, and your dream into a plan!\n-Cris Nikolov</item>
+        <item>The present is theirs; the future, for which I really worked, is mine.\n-Nikola Tesla</item>
+        <item>Success is achieved and maintained by those who try and keep trying.\n-W C Stone</item>
+        <item>Thinking will not overcome fear but action will.\n-W C Stone</item>
+        <item>The best way out is always through.\n-Robert Frost</item>
+        <item>The measure of who we are, is what we do with what we have.\n-Vince Lombardi</item>
+        <item>To hell with circumstances; I create opportunities.\n-Bruce Lee</item>
+
+    </string-array>
+
+</resources>

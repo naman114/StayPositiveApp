@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        style="@style/WelcomeStyle"
+        android:fontFamily="@font/roboto"
+        android:text="@string/welcome"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/star_image"
+        style="@style/WelcomeStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/star_image"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <EditText
+        android:id="@+id/name_edit"
+        style="@style/WelcomeStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/whats_your_name"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/ButtonStyle"
+        android:text="@string/done_text" />
+
+    <TextView
+        android:id="@+id/greeting_text"
+        style="@style/WelcomeStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/greetings"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/quoteForYou_text"
+        style="@style/WelcomeStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/quoteForYou"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/quote_text"
+        style="@style/WelcomeStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:paddingStart="@dimen/start_padding"
+        android:paddingEnd="@dimen/start_padding"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/nextquote_button"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/nextQuote"
+        android:visibility="gone" />
+</LinearLayout>

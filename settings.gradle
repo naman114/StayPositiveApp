@@ -1,0 +1,2 @@
+rootProject.name='StayPositive'
+include ':app'
